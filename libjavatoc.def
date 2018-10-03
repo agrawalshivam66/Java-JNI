@@ -1,0 +1,6 @@
+; dlltool --base-file C:\Users\SHIVAM~1\AppData\Local\Temp\cca10236.base --output-exp javatoc.exp --dllname javatoc.dll --output-def libjavatoc.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup --def C:\Users\SHIVAM~1\AppData\Local\Temp\cca10236.def --output-lib libjavatoc.a
+EXPORTS
+	Java_javatoc_intArrayMethod @ 1
+	Java_javatoc_intMethod @ 2
+	Java_javatoc_stringMethod @ 3
+	Java_javatoc_booleanMethod @ 4
