@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class javatoc {
+public class cfg {
 
 
    
@@ -9,14 +9,15 @@ public class javatoc {
     }
 
     public static void funName() throws Exception{
+        int count = 0;
 	
-  Scanner sc = new Scanner(new File("cfile.c"));
+  Scanner sc = new Scanner(new File("cfile.cpp"));
     while(sc.hasNext()){
-        String s = sc.next();
-        if ((s.trim()).equals("Method:")){
-        System.out.println(sc.next());
+        count++;
+        String s = sc.nextLine();
+        System.out.print(count);
+        System.out.println(" "+s);
     }
-}
 sc.close();
 
         }
